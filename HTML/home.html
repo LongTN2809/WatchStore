@@ -1,83 +1,242 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/home.css">
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body>
-       <div class="wrapper">
-          <nav class="navbar">
+    <div class="wrapper">
+        <nav class="navbar">
             <div class="logo">
                 <img src="../Image/logo-removebg-preview.png" alt="">
                 <span>ROYAL TIME</span>
             </div>
-            
-            <ul class="navlink">
-                <li><a href="home.html">HOME</a></li>
-                <li><a href="product.html">PRODUCT</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
-                    <div class="nav-icons">
-                       <a id="account-icon" href="#"><i class="fa-solid fa-circle-user"></i></a>
-                       <a id="bar-icon" href="#"><i class="fa-solid fa-bars"></i></a>
-                    </div>
-        </nav> 
+            <div class="nav_pc">
+                <ul class="nav_pc-list">
+                    <li><a class="nav_pc_link" href="home.html">HOME</a></li>
+                    <li><a class="nav_pc_link" href="product.html">PRODUCT</a></li>
+                    <li><a class="nav_pc_link" href="#about">ABOUT</a></li>
+                    <li><a class="nav_pc_link" href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div id="account-icon">
+                <a href=""><i class="fa-solid fa-circle-user"></i></a>
+            </div>
+        </nav>
         <div class="main-content">
-         <section id="home" class="Hero">
-        <div class="container">
-            <div class="left-content">
-                <p>ONE SECOND <br> <span>at a</span> TIME</p>
-                <p>LUXURY WATCHES IN EVERY DETAIL <br> TIMELESS ELEGANCE, UNMATCHED ACCURACY</p>
-                <button id="goToProduct">SHOP NOW</button>
-            </div>
-            <div class="right-content">
-                <div class="img-wrapper">
-                      <img id="right-content-img" src="../Image/homeWatch.png" alt="">
+            <section id="home" class="Hero">
+                <div class="main-container">
+                    <div class="left-content">
+                        <p>ONE SECOND <br> <span>at a</span> TIME</p>
+                        <p>LUXURY WATCHES IN EVERY DETAIL <br> TIMELESS ELEGANCE, UNMATCHED ACCURACY</p>
+                        <button id="goToProduct">SHOP NOW</button>
+                    </div>
+                    <div class="right-content">
+                        <div class="img-wrapper">
+                            <img id="right-content-img" src="../Image/homeWatch.png" alt="">
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-       </section>
-       <section id="about">
-       <div class="header">
-        <h1>About Us</h1>
-       </div>
-        <div class="about-header">
-        <p>Royal Time is a retailer specializing in genuine fashion watches and accessories. 
-        With a modern aesthetic and reasonable prices, we aim to deliver stylish and durable products for everyone. 
-        Founded in 2025, our mission is to make high-quality timepieces accessible to all.</p>
-        </div>  
-        <div class="about-content">
-            <div class="about-item">
-                 <h3>Our Mission</h3>
-            <ul>
-                <li>Provide high-quality products at the best prices.</li>
-                <li>Prioritize customer experience above all.</li>
-                <li>Continuously update new models and trends.</li>
-            </ul>
-            </div>
-            <div class="about-item">
-                 <h3>Why Choose Royal Time?</h3>
-            <ul>
-                <li>100% authentic and certified products.</li>
-                <li>12-month warranty - 7-day return policy for manufacturer defects.</li>
-                <li>Nationwide delivery - fast and secure support.</li>
-            </ul>
-            </div>
-        </div>
-       </section>
-        </div>
-         <footer></footer>
-       </div>
-        
-    <script src="../JS/home.js"></script>
+            </section>
+
+            <section id="about">
+                <div class="our-story">
+                    <div class="header">
+                        <h1>Our Story</h1>
+                    </div>
+                    <div class="about-story-header">
+                        <p>Born from a passion for exceptional timepieces and a vision to make luxury accessible.</p>
+                    </div>
+                    <div class="about-story-content">
+                        <div class="about-item">
+                            <div class="about-story-text">
+                                <h3>Our Beginning</h3>
+                                <p>Royal Time was founded in 2025 by Tang Nhat Long,
+                                    a lifelong watch enthusiast who noticed a gap in the market.
+                                    While luxury timepieces were often exclusive and intimidating,
+                                    Long envisioned a place where anyone could discover, learn about, and acquire
+                                    exceptional watches with confidence.</p>
+                                <br>
+                                <p>
+                                    Starting with a small collection of carefully curated pieces,
+                                    we've grown into a trusted destination for watch lovers worldwide,
+                                    never losing sight of our core mission: making the art of horology accessible to
+                                    all.
+                                </p>
+                            </div>
+                            <div class="about-story-image">
+                                <img src="../Image/about-begining-image.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="about-item-reverse">
+                            <div class="about-story-text">
+                                <h3>Our Philosophy</h3>
+                                <p>
+                                    We believe that a great watch is more than just a timekeeper—it's a companion
+                                    for life's most important moments. Every piece in our collection is selected not
+                                    just for its technical excellence, but for its ability to tell a story and create
+                                    lasting memories.
+                                </p>
+                                <br>
+                                <p>
+                                    Our commitment extends beyond the sale. We provide comprehensive education, expert
+                                    guidance, and lifetime support to ensure that every customer finds not just a watch,
+                                    but their perfect timepiece.
+                                </p>
+                            </div>
+                            <div class="about-story-image">
+                                <img src="../Image/about-philosophy-image.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our-mission">
+                    <div class="header">
+                        <h1>Our Mission</h1>
+                    </div>
+                    <div class="about-mission-header">
+                        <p>Dedicated to bringing you exceptional timepieces while revolutionizing the luxury watch
+                            experience</p>
+                    </div>
+                    <div class="about-mission-content">
+                        <div class="about-mission-item">
+                            <div class="about-mission-text">
+                                <ul class="mission-list">
+                                    <li>
+                                        <span class="icon"><i class="fa-regular fa-star"></i></span>
+                                        <div>
+                                            <h3>Provide high-quality products at the best prices</h3>
+                                            <p>
+                                                We source directly from manufacturers to offer premium timepieces at
+                                                competitive prices without compromising on quality.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="icon"><i class="fa-solid fa-headphones"></i></span>
+                                        <div>
+                                            <h3>Prioritize customer experience above all</h3>
+                                            <p>
+                                                Every interaction is designed to exceed expectations, from browsing
+                                                to after-sales support.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="icon"><i class="fa-solid fa-arrows-rotate"></i></span>
+                                        <div>
+                                            <h3>Continuously update new models and trends</h3>
+                                            <p>
+                                                Stay ahead of horological innovations and bring the latest designs to
+                                                our discerning customers.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mission-image">
+                                <img src="../Image/about-mission-image.jpg" alt="Mission Image" />
+                            </div>
+                        </div>
+                        <div class="stats-section">
+                            <h2>Driving Innovation in Horology</h2>
+                            <p>We believe that luxury should be accessible, authentic, and accompanied by
+                                exceptional service. Our mission extends beyond selling timepieces—we're
+                                building a community of watch enthusiasts who appreciate the artistry,
+                                heritage, and precision that defines exceptional horology.</p>
+                            <div class="stats-container">
+                                <div class="stat-item">
+                                    <h3>100%</h3>
+                                    <p>Passion Driven</p>
+                                </div>
+                                <div class="stat-item">
+                                    <h3>500+</h3>
+                                    <p>Premium Brands</p>
+                                </div>
+                                <div class="stat-item">
+                                    <h3>50K+</h3>
+                                    <p>Satisfied Customers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer id="contact" class="footer">
+                <div class="footer-container">
+                    <div class="footer-content">
+
+                        <div class="footer-section">
+                            <div class="footer-brand">Royal Time</div>
+                            <p class="footer-description">
+                                Your trusted destination for luxury timepieces and exceptional craftsmanship.
+                            </p>
+                            <div class="social-links">
+                                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+
+
+                        <div class="footer-section">
+                            <h3>Quick Links</h3>
+                            <ul class="footer-links">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Our Story</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Press</a></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="footer-section">
+                            <h3>Customer Care</h3>
+                            <ul class="footer-links">
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Shipping Info</a></li>
+                                <li><a href="#">Returns</a></li>
+                                <li><a href="#">Size Guide</a></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="footer-section">
+                            <h3>Contact Info</h3>
+                            <ul class="contact-info">
+                                <li>
+                                    <i class="fas fa-phone"></i>
+                                    <span>0934117789</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-envelope"></i>
+                                    <span>TNLong1128@gmail.com</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>123 Nguyen Hue TPHCM</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom">
+                        © 2025 RoyalTime. All rights reserved. | <a href="#">Website Builder</a>
+                    </div>
+                </div>
+            </footer>
+
+            <script src="../JS/home.js"></script>
 </body>
