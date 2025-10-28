@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.our-story {
+    margin-bottom: 100px;
+}
+
+.our-story .header {
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 45px;
+    color: #D4AF37;
+}
+
+.our-story .about-story-header {
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    color: rgb(152, 152, 152);
+    line-height: 30px;
+}
+
+#about {
+    animation: appear 1s ease-out both;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+.about-story-content {
+    width: 75%;
+    margin: 100px auto 0;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.about-item,
+.about-item-reverse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-item-reverse {
+    flex-direction: row-reverse;
+}
+
+.about-story-text {
+    width: 50%;
+}
+
+.about-story-text h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #D4AF37;
+}
+
+.about-story-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+    text-align: justify;
+}
+
+.about-story-image img {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.our-mission .header {
+    text-align: center;
+}
+
+.our-mission .header {
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.our-mission .about-mission-header {
+    margin: 0px auto 40px;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    color: rgb(152, 152, 152);
+    line-height: 30px;
+}
+
+.our-mission {
+    width: 100%;
+    padding: 60px 0;
+
+}
+
+.our-mission .header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.our-mission .header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.about-mission-header p {
+    font-size: 16px;
+    color: #555;
+}
+
+.about-mission-content .about-mission-item {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto 60px;
+}
+
+.about-mission-text {
+    background-color: #0b132b;
+    color: #fff;
+    padding: 35px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mission-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.mission-list h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 5px;
+}
+
+.mission-list p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.icon {
+    font-size: 20px;
+    background-color: #D4AF37;
+    padding: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.mission-image img {
+    width: 600px;
+    height: 500px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.stats-section {
+    max-width: 1000px;
+    background-color: #fefac7;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.stats-section>p {
+    font-size: 17px;
+}
+
+.stats-section h2,
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stat-item h3 {
+    text-align: center;
+    color: #ca8a04;
+    font-size: 30px;
+}
+
+.stat-item p {
+    font-size: 16px;
+}

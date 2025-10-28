@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/about.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
 
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js"></script>
@@ -35,7 +37,7 @@
             </div>
         </nav>
         <div class="main-content">
-            <section id="home" class="Hero">
+            <section id="home" class="Hero show">
                 <div class="main-container">
                     <div class="left-content">
                         <p>ONE SECOND <br> <span>at a</span> TIME</p>
@@ -50,16 +52,19 @@
                 </div>
             </section>
 
-            <section id="about">
+            <section id="about" class="about">
                 <div class="our-story">
-                    <div class="header">
-                        <h1>Our Story</h1>
-                    </div>
-                    <div class="about-story-header">
-                        <p>Born from a passion for exceptional timepieces and a vision to make luxury accessible.</p>
+                    <div class="reveal">
+                        <div class="header">
+                            <h1>Our Story</h1>
+                        </div>
+                        <div class="about-story-header">
+                            <p>Born from a passion for exceptional timepieces and a vision to make luxury accessible.
+                            </p>
+                        </div>
                     </div>
                     <div class="about-story-content">
-                        <div class="about-item">
+                        <div class="about-item reveal">
                             <div class="about-story-text">
                                 <h3>Our Beginning</h3>
                                 <p>Royal Time was founded in 2025 by Tang Nhat Long,
@@ -79,7 +84,7 @@
                                 <img src="../Image/about-begining-image.jpg" alt="">
                             </div>
                         </div>
-                        <div class="about-item-reverse">
+                        <div class="about-item-reverse reveal">
                             <div class="about-story-text">
                                 <h3>Our Philosophy</h3>
                                 <p>
@@ -102,15 +107,17 @@
                     </div>
                 </div>
                 <div class="our-mission">
-                    <div class="header">
-                        <h1>Our Mission</h1>
-                    </div>
-                    <div class="about-mission-header">
-                        <p>Dedicated to bringing you exceptional timepieces while revolutionizing the luxury watch
-                            experience</p>
+                    <div class="reveal">
+                        <div class="header">
+                            <h1>Our Mission</h1>
+                        </div>
+                        <div class="about-mission-header">
+                            <p>Dedicated to bringing you exceptional timepieces while revolutionizing the luxury watch
+                                experience</p>
+                        </div>
                     </div>
                     <div class="about-mission-content">
-                        <div class="about-mission-item">
+                        <div class="about-mission-item reveal">
                             <div class="about-mission-text">
                                 <ul class="mission-list">
                                     <li>
@@ -149,7 +156,7 @@
                                 <img src="../Image/about-mission-image.jpg" alt="Mission Image" />
                             </div>
                         </div>
-                        <div class="stats-section">
+                        <div class="stats-section reveal">
                             <h2>Driving Innovation in Horology</h2>
                             <p>We believe that luxury should be accessible, authentic, and accompanied by
                                 exceptional service. Our mission extends beyond selling timepieces—we're
@@ -177,7 +184,6 @@
             <footer id="contact" class="footer">
                 <div class="footer-container">
                     <div class="footer-content">
-
                         <div class="footer-section">
                             <div class="footer-brand">Royal Time</div>
                             <p class="footer-description">
@@ -237,6 +243,6 @@
                     </div>
                 </div>
             </footer>
-
-            <script src="../JS/home.js"></script>
+        </div>
+        <script src="../JS/home.js"></script>
 </body>
