@@ -192,7 +192,7 @@ body {
 .filter-sidebar {
     width: 20%;
     height: 50rem;
-    background-color: #f5d76e;
+    background: linear-gradient(145deg, #2b2b2b, #1f1f1f);
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -209,10 +209,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    color: #c8c8c8;
 }
 
 .filter-section h4 {
     margin-bottom: 20px;
+    color: #fff;
 }
 
 .filter-section input:hover {
@@ -228,35 +230,56 @@ body {
 .right-sidebar {
     width: 20%;
     height: 100%;
-    background-color: #f5d76e;
+    background: linear-gradient(145deg, #2b2b2b, #1f1f1f);
     display: flex;
     flex-direction: column;
-    gap: 25px;
-    padding: 25px;
+    gap: 20px;
+    padding: 20px;
+}
+
+.right-sidebar h3 {
+    color: #b9961f;
+    font-size: 25px;
 }
 
 .featured-item {
-    background-color: #fff;
-    width: 100%;
-    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: auto;
 }
 
-.featured-item img {
-    width: 50%;
-    max-width: 250px;
-    height: auto;
-    border-radius: 10px;
-    object-fit: cover;
-    transition: transform 0.5s ease;
+.featured-item-image {
+    width: 100%;
+    height: 290px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, #2b2b2b, #1f1f1f);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.featured-item img:hover{
+
+.featured-item-image:hover {
     cursor: pointer;
-    transform:scale(1.05);
+    transform: scale(1.02);
+    box-shadow: 1px 2px 37px -11px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 1px 2px 37px -11px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 1px 2px 37px -10px rgba(255, 255, 255, 0.75);
 }
-.featured-item p{
-    font-size: 16px;
-    text-align: center;
+
+.featured-item-image img {
+    width: 90%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.featured-item-text p{
+    color: #fff;
+}
+.featured-item-text p:nth-child(2){
+   color: #d4af37;
 }
