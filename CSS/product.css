@@ -163,7 +163,7 @@ body {
     align-items: center;
 }
 
-.brand-btn{
+.brand-btn {
     height: 40px;
     background-color: #d3b037;
     border-radius: 3px;
@@ -173,49 +173,90 @@ body {
     transition: background-color 0.3s ease;
     border: none;
 }
-.brand-btn:hover{
+
+.brand-btn:hover {
     cursor: pointer;
     background-color: #b9961f;
 }
-.product-page{
+
+.product-page {
     width: 95%;
+    height: auto;
     margin: 0 auto;
     background-color: cyan;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
-.filter-sidebar{
+
+.filter-sidebar {
     width: 20%;
     height: 50rem;
     background-color: #f5d76e;
     padding: 25px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
-.filter-sidebar h3{
+
+.filter-sidebar h3 {
     color: #b9961f;
-    margin-bottom: 25px;
+    font-size: 25px;
 }
-.filter-sidebar ul{
+
+.filter-sidebar ul {
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-.filter-section h4{
+
+.filter-section h4 {
     margin-bottom: 20px;
 }
-.filter-section input:hover{
+
+.filter-section input:hover {
     cursor: pointer;
 }
-.product-list{
+
+.product-list {
     width: 55%;
     height: 50rem;
     background-color: #f5d76e;
 }
-.right-sidebar{
+
+.right-sidebar {
     width: 20%;
-    height: 50rem;
+    height: 100%;
     background-color: #f5d76e;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+}
+
+.featured-item {
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featured-item img {
+    width: 50%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+.featured-item img:hover{
+    cursor: pointer;
+    transform:scale(1.05);
+}
+.featured-item p{
+    font-size: 16px;
+    text-align: center;
 }
