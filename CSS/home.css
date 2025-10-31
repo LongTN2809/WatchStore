@@ -105,16 +105,16 @@ body {
     height: auto;
 }
 
-#account-icon i {
-    font-size: 30px;
+.nav-icon i {
+    font-size: 25px;
     color: white;
 }
 
-#account-icon a:hover {
+.nav-icon a:hover {
     color: inherit;
 }
 
-#account-icon a:hover::before {
+.nav-icon a:hover::before {
     width: 0;
 }
 

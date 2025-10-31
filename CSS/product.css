@@ -180,13 +180,13 @@ body {
 }
 
 .product-page {
-    width: 95%;
-    height: auto;
-    margin: 0 auto;
-    background-color: cyan;
     display: flex;
     justify-content: space-between;
-    overflow: hidden;
+    align-items: flex-start;
+    gap: 2em;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 2em;
 }
 
 .filter-sidebar {
@@ -222,9 +222,100 @@ body {
 }
 
 .product-list {
-    width: 55%;
-    height: 50rem;
-    background-color: #f5d76e;
+    width: 60%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 350px;
+    gap: 1em;
+}
+
+.product-items {
+    border-radius: 5px;
+    background-color: #1f1f1f;
+}
+
+.product-items-image {
+    width: 100%;
+    height: 70%;
+    background: linear-gradient(to bottom, #2a2a2a, #3d3d3d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-items-image a{
+    display: block;
+    width: 100%;
+    height: 90%;
+}
+.product-items-image a img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    transition: transform 0.3s ease;
+}
+.product-items-image a img:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+.product-items-information {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.item-price-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.item-price-old {
+    font-size: 14px;
+    color: #999;
+    text-decoration: line-through;
+    margin: 0;
+}
+
+.item-discount {
+    background-color: #e74c3c;
+    color: white;
+    padding: 1px 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.item-name {
+    color: #fff;
+}
+
+.item-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+    margin: 0;
+}
+
+.item-brand {
+    color: #DAA520;
+}
+
+.product-items-information p {
+    margin: 0;
+}
+
+.button-To-Change-Page{
+  grid-column: 1 / -1; 
+  display: block;
+  margin: 0 auto;
 }
 
 .right-sidebar {
@@ -277,9 +368,11 @@ body {
     object-fit: contain;
     display: block;
 }
-.featured-item-text p{
+
+.featured-item-text p {
     color: #fff;
 }
-.featured-item-text p:nth-child(2){
-   color: #d4af37;
+
+.featured-item-text p:nth-child(2) {
+    color: #d4af37;
 }
