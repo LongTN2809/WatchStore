@@ -1,14 +1,16 @@
 const boxes = document.querySelectorAll(".reveal");
-window.addEventListener('scroll' , ()=>{
-    // Dung 4/5 phan man hinh de lam viewport va tinh khoang cach voi phan tu khac
-    const triggerBottom = window.innerHeight / 5 * 4;
-    boxes.forEach(box=>{
-      // Lay vi tri that su cua phan tu
+window.addEventListener("scroll" , ()=>{
+   // LẤY 80% CHIỀU CAO CỦA MÀN HÌNH HIỂN THỊ
+   const triggerBottom = window.innerHeight * 4 / 5; // nhân chéo chia ngang
+   boxes.forEach(box=>{
       const boxTop = box.getBoundingClientRect().top;
-      if(triggerBottom > boxTop){
-         box.classList.add("show");
-      }else{
-         box.classList.remove("show");
-      }
-    });
+      if(triggerBottom > boxTop) box.classList.add("show");
+      else box.classList.remove("show");
+   });
+   
+});
+
+const buttonToProduct = document.getElementById("goToProduct");
+buttonToProduct.addEventListener("click" ,()=>{
+  window.location.href = "product.html";
 });
