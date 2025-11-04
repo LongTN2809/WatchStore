@@ -3,6 +3,9 @@
 const pathPage = window.location.pathname.split("/").pop();
 // pathPage = "home.html" vì url trả về là https://RoyalTime.com/HTML/home.html
 if(pathPage === "product.html"){
-   const cartIcon = `<a href=""><i class="fa-solid fa-cart-shopping"></i></a>`;
+   const cartIcon = `<a href=""><i class="fa-solid fa-bag-shopping"></i></a>`;
+   document.querySelector(".nav-icon").innerHTML += cartIcon;
+}else if(pathPage === "product-detail.html"){
+   const cartIcon = `<a href=""><i class="fa-solid fa-bag-shopping"></i></a>`;
    document.querySelector(".nav-icon").innerHTML += cartIcon;
 }
