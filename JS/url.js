@@ -8,4 +8,7 @@ if(pathPage === "product.html"){
 }else if(pathPage === "product-detail.html"){
    const cartIcon = `<a href=""><i class="fa-solid fa-bag-shopping"></i></a>`;
    document.querySelector(".nav-icon").innerHTML += cartIcon;
+}else if(pathPage === "buy-now.html"){
+   const cartIcon = `<a href=""><i class="fa-solid fa-bag-shopping"></i></a>`;
+   document.querySelector(".nav-icon").innerHTML += cartIcon;
 }

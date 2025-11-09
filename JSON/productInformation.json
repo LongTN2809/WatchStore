@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "brand": "ROLEX",
+    "name": "Cosmograph Daytona Oyster, 40 mm, yellow gold",
+    "price": 4060800000,
+    "oldPrice": 5000000000,
+    "discount": 19,
+    "img": "../Image/bailam/Rolex/tải xuống (3).png",
+    "description": "The Cosmograph Daytona is a symbol of speed and sporty style, crafted in 18 ct yellow gold with a luxurious dial and high precision."
+  },
+  {
+    "id": 2,
+    "brand": "BOVET",
+    "name": "Bovet Dimier Recital 9 R90001-SB1",
+    "price": 4060800000,
+    "oldPrice": 5000000000,
+    "discount": 19,
+    "img": "../Image/bailam/bovet/tải xuống (2).png",
+    "description": "The Bovet Dimier Recital 9 R90001-SB1 is a refined combination of artisanal craftsmanship and traditional mechanical engineering."
+  },
+  {
+    "id": 3,
+    "brand": "BOVET",
+    "name": "Bovet x Pininfarina Aperto 1",
+    "price": 4060800000,
+    "oldPrice": 5000000000,
+    "discount": 19,
+    "img": "../Image/bailam/bovet/tải xuống (3).png",
+    "description": "The Bovet x Pininfarina Aperto 1 is a collaboration between Bovet and the renowned car designer Pininfarina, embodying sporty elegance and luxury."
+  },
+  {
+    "id": 4,
+    "brand": "PATEK",
+    "name": "Patek Philippe Grand Complications Perpetual Calendar Chronograph",
+    "price": 4060800000,
+    "oldPrice": 5000000000,
+    "discount": 19,
+    "img": "../Image/bailam/pateck/tải xuống (1).png",
+    "description": "The Patek Philippe Grand Complications line is famous for its complex design, combining a perpetual calendar and a top-tier chronograph."
+  },
+  {
+    "id": 5,
+    "brand": "ROLEX",
+    "name": "Rolex Oyster Perpetual Yacht-Master II 116681",
+    "price": 4060800000,
+    "oldPrice": 5000000000,
+    "discount": 19,
+    "img": "../Image/bailam/Rolex/tải xuống (1).png",
+    "description": "The Rolex Yacht-Master II 116681 symbolizes nautical spirit, featuring a luxurious design and a unique regatta countdown function."
+  },
+  {
+    "id": 6,
+    "brand": "JAEGER-LECOULTRE",
+    "name": "Reverso Tribute Duoface Calendar 49.4 x 29.9mm",
+    "price": 4060800000,
+    "oldPrice": 5000000000,
+    "discount": 19,
+    "img": "../Image/bailam/Jaeger-LeCoultre/tải xuống (1).png",
+    "description": "The Reverso Tribute Duoface Calendar by Jaeger-LeCoultre combines classic style and a unique reversible mechanism, perfect for those who appreciate distinction."
+  }
+]

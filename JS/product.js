@@ -1,6 +1,9 @@
-const hearts = document.querySelectorAll(".heart");
-hearts.forEach(function(heart){
-  heart.addEventListener("click", ()=>{
-       heart.classList.toggle('active');
+const img_clickeds = document.querySelectorAll(".img_clicked");
+img_clickeds.forEach((items) => {
+  items.addEventListener("click", () => {
+    const productInfo = items.closest(".product-items");
+    const id = productInfo.dataset.id;
+    localStorage.setItem("productDetail", id);
   });
 });
+

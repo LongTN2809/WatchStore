@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/about.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+    <link rel="stylesheet" href="../CSS/navbar.css">
+    <link rel="stylesheet" href="../CSS/buy-now.css">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="../Image/IMG-HOME/logo-removebg-preview.png" alt="">
+                <span>ROYAL TIME</span>
+            </div>
+            <div class="nav_pc">
+                <ul class="nav_pc-list">
+                    <li><a class="nav_pc_link" href="home.html">HOME</a></li>
+                    <li><a class="nav_pc_link" href="product.html">PRODUCT</a></li>
+                    <li><a class="nav_pc_link" href="home.html#about">ABOUT</a></li>
+                    <li><a class="nav_pc_link" href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="nav-icon">
+                <a href=""><i class="fa-solid fa-circle-user"></i></a>
+            </div>
+        </nav>
+
+        <div id="main">
+            <h1>CHECKOUT</h1>
+            <div class="page-wrapper">
+                <h3>Order Summary</h3>
+                <div class="order">
+                    <div class="product-ordered">
+                        <div class="product-img-ordered">
+                            <img src="../Image/bailam/Rolex/tải xuống (3).png" alt="">
+                        </div>
+                        <div class="product-infor-ordered">
+                            <h3 class="product-name">Cosmograph Daytona</h3>
+                            <p class="product-desc">Oyster, 40 mm, Yellow Gold - Ref: 126508</p>
+                            <p class="product-price"></p>
+                            <div class="quanity">
+                                <input type="button" class="plus-btn" name="plus_product" id="" value="+">
+                                <input type="number" class="quantity-input" value="1" min="1" max="99" step="1"
+                                    placeholder inputmode="numeric">
+                                <input type="button" class="minus-btn" name="minus_product" id="" value="-">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="information"></div>
+            </div>
+        </div>
+    </div>
+    <script src="../JS/url.js"></script>
+    <script src="../JS/buy-now.js"></script>
+</body>
+
+</html>
