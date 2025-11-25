@@ -1,0 +1,136 @@
+/* Reset cơ bản */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Background */
+.author-page {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../Image/Login-Register-Img/photo-1511370235399-1802cae1d32f.avif");
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.login-header h2 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.login-header p {
+    font-size: 14px;
+    color: #555;
+}
+
+.input-place {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-icon-wrapper {
+    position: relative;
+}
+
+.input-icon-wrapper input {
+    width: 100%;
+    padding: 12px 40px 12px 15px;
+}
+
+.input-icon-wrapper i {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    color: #555;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #333;
+}
+
+.input-group input {
+    padding: 12px 40px 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #555;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.auth-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.auth-btn:hover {
+    background-color: #555;
+}
+
+.login-footer {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.login-footer a {
+    color: #333;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.login-footer a:hover {
+    color: #555;
+}
+
+.login-footer span {
+    display: block;
+    margin-top: 5px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/cart.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navbar"></nav>
+
+        <section class="main-cart-content">
+            <div class="cart-header">
+                <h2 class="title">YOUR SHOPPING CART</h2>
+                <p>You have <span id="item-amount"></span> in your cart</p>
+            </div>
+            <div class="cart-wrapper">
+                <div class="cart-left-content">
+                    <div class="cart-table-header">
+                        <div class="col-product">
+                            <p>PRODUCT</p>
+                        </div>
+                        <div class="col-name">
+                            <p>NAME</p>
+                        </div>
+                        <div class="col-price">
+                            <p>PRICE</p>
+                        </div>
+                        <div class="col-qty">
+                            <p>QUANTITY</p>
+                        </div>
+                        <div class="col-total">
+                            <p>TOTAL</p>
+                        </div>
+                    </div>
+                    <div class="cart-item-wrapper">
+                        
+                    </div>
+
+                </div>
+                <div class="cart-right-content">    
+                      <div class="cart-right-wrapper">
+                        <div class="cart-right-title">
+                            <h2>CART SUMMARY</h2>
+                        </div>
+                        <div class="cart-right-info">
+                            <div class="subtotal row">
+                                <span>Subtotal</span>
+                                <span>5,677,800,000 ₫</span>
+                            </div>
+                            <div class="shipping row">
+                                <span>Shipping</span>
+                                <span>Calculated at checkout</span>
+                            </div>
+                            <div class="tax row">
+                                <span>Tax</span>
+                                <span>Calculated at checkout</span>
+                            </div>
+                             <hr style="background-color: #d2ae3f; border:none; height: 3px; width: 100%;">
+                              <div class="total row">
+                                <h3>TOTAL</h3>
+                                <span>5,677,800,000 ₫</span>
+                            </div>
+                        </div>
+                        <div class="cart-right-btn-group">
+                            <input type="button" value="PROCEED TO CHECKOUT" class="checkout-btn">
+                            <input type="button" value="CONTINUE SHOPPING" class="continue-buy-btn">
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer id="contact" class="footer"></footer>
+    </div>
+    <script src="../JS/renderLayout.js"></script>
+    <script src="../JS/nav-icon.js"></script>
+    <script src="../JS/quanity.js"></script>
+    <script src="../JS/cart.js"></script>
+</body>
+
+</html>
