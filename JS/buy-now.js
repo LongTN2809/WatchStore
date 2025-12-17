@@ -46,6 +46,9 @@ function useRadioGroup(obj) {
     showMethodDetail,
     details
   } = obj;
+
+
+  
   let radioes = document.querySelectorAll(`input[name="${radioName}"]`);
   let headerSelectedDefault = null;
   let detailTargetDefault = null;
@@ -104,6 +107,7 @@ useRadioGroup({
   radioHeader: "e-wallet-option",
   selectedClass: "selected",
 });
+
 function clickMethodHeader(classOfDiv) {
   const methodDivs = document.querySelectorAll(`.${classOfDiv}`);
   methodDivs.forEach((methodDiv) => {

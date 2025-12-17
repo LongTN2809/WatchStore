@@ -6,4 +6,3 @@ img_clickeds.forEach((items) => {
     localStorage.setItem("productDetail", id);
   });
 });
-
